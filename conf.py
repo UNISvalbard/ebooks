@@ -48,7 +48,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "sphinx_book_theme"
 html_logo = "_static/UNIS_logo.gif"
 html_favicon = "_static/UNIS_logo.gif"
-html_title = "UNIS eXBooks"
+html_title = "UNIS eBooks"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
