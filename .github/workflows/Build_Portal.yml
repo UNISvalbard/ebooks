@@ -30,10 +30,10 @@ jobs:
         shell: bash -l {0}
         run: |
           conda install jupyter-book sphinx-cook-theme=0.3.3 -c conda-forge
-          jupyter book build .
+           sphinx-build . _build
           
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: ./_build
