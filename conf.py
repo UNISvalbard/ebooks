@@ -45,10 +45,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_book_theme"
+html_theme = "sphinx_book_theme" #"pydata_sphinx_theme" # sphinx_book_theme
 html_logo = "_static/UNIS_logo.gif"
 html_favicon = "_static/UNIS_logo.gif"
 html_title = "UNIS eBooks"
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -60,6 +61,8 @@ html_theme_options = {
     "use_issues_button": False,
     "use_edit_page_button": False,
     "use_download_button": False,
+    #"navbar_persistent": [""],
+    #"secondary_sidebar_items": [""],
     "path_to_docs": "docs",
     "path_to_docs": "docs",
     "single_page": True,
