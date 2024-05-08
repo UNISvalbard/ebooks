@@ -14,11 +14,12 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import datetime
 
 # -- Project information -----------------------------------------------------
 
 project = 'ebook'
-copyright = '2023, Peter Betlem'
+copyright = f'{datetime.date.today().year}, Peter Betlem'
 author = 'Peter Betlem'
 
 
