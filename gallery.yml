@@ -26,3 +26,8 @@
   website: https://unisvalbard.github.io/Geo-UAV/landing-page.html
   image: https://unisvalbard.github.io/Geo-UAV/_static/geo_mod-01.png
   keywords: UAV-based data acquisition tutorial for the geosciences.
+- name: Svalbox Deposit
+  website: https://svalbox.github.io/C2Svalbox/
+  image: https://svalbox.github.io/c2svalbox/_static/logo.webp
+  keywords: Contribute data to Svalbox.no
+
