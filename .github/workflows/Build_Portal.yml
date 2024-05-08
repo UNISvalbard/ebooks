@@ -47,7 +47,7 @@ jobs:
       - name: Build
         shell: bash -l {0}
         run: |
-          conda install jupyter-book sphinx-book-theme=0.3.3 -c conda-forge
+          conda install jupyter-book -c conda-forge
           sphinx-build . _build
           
       - name: GitHub Pages action
