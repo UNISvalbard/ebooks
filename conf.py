@@ -66,16 +66,7 @@ html_theme_options = {
     #"secondary_sidebar_items": [""],
     "path_to_docs": "docs",
     "collapse_navbar": True,
-    "extra_navbar": """
-    <div>
-        <h1>
-            The UNIS eBook/digital compendium collection
-        </h1>
-        <p>
-            The UNIS Executable Books page provides an overview of all eBooks available and/or used for teaching at the [University Centre in Svalbard (UNIS)](https://unis.no).
-        </p>
-        </div>
-    """
+    "extra_navbar": "test"
 }
 
 html_sidebars = {
