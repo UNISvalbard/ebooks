@@ -8,11 +8,11 @@
   keywords: AG222 course compendium.
 - name: Svalbox Cookbook
   website: https://svalbox.github.io/Svalbox-cookbook/intro.html
-  image: http://svalbox.no/_static/logo.svg
+  image: https://svalbox.no/wp-content/uploads/2024/03/merged-website-logo-300x134.webp
   keywords: Handy Tips and Tricks for dealing with the Svalbox database.
 - name: Svalbox Portal
   website: https://svalbox.no
-  image: http://svalbox.no/_static/logo.svg
+  image: https://svalbox.no/wp-content/uploads/2024/03/merged-website-logo-300x134.webp
   keywords: The Svalbox.no portal provides integrated, geoscientific data.
 - name: GNSS Compendium
   website: https://unisvalbard.github.io/gnss-compendium/readme.html

@@ -64,8 +64,11 @@ html_theme_options = {
     #"navbar_persistent": [""],
     #"secondary_sidebar_items": [""],
     "path_to_docs": "docs",
-    "path_to_docs": "docs",
-    "single_page": True,
+    "collapse_navbar": True,
+}
+
+html_sidebars = {
+    "**": ["navbar-logo.html"]
 }
 
 # -- Custom scripts ----------------------------------------------------------
@@ -129,7 +132,6 @@ def build_gallery(app: Sphinx):
     panels = f"""
 ``````{{grid}} 1 2 3 3
 :gutter: 1 1 2 2
-:class-container: full-width
 {dedent(grid_items)}
 ``````
     """
