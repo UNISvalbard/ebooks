@@ -1,3 +1,7 @@
+# The UNIS eBook/digital compendium collection
+
+The UNIS Executable Books page provides an overview of all eBooks available and/or used for teaching at the [University Centre in Svalbard (UNIS)](https://unis.no).
+
 ```{admonition} One missing?
 :class: seealso
 
